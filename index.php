@@ -1,6 +1,6 @@
 <?php
-$cost = $_POST["cost"];
-$exchange = $_POST["exchange"];
+$cost = $_GET["cost"];
+$exchange = $_GET["exchange"];
 
 if ($exchange == $cost) {
   echo "No exchange needed";
