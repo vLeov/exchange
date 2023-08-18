@@ -13,6 +13,6 @@ if ($exchange == $cost) {
 }
 ?>
 <br>
-<form method="post" action="index.html">
+<form method="get" action="index.html">
     <input type="submit">
 </form>
